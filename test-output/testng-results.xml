@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="7" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (d7a7d4cd4d208b6b1c180fbc034700ea)] -> tag name: h1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (601a610d15296c0db7a75fcb743b0292)] -> tag name: h1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (f22d52b372e61ea5725f070c6b2937cb)] -> tag name: h1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (c8abc387e516c2013d114adccd0ebb93)] -> tag name: h1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (fcb25c366e14c5383a2ee99c1b176f3d)] -> tag name: h1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (156c5363b6e6bf21a6f3631e1e0ad106)] -> tag name: h1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (aaaf0920968c221615b905bf14031e4e)] -> tag name: h1]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="77615" started-at="2022-05-09T15:48:33 BST" finished-at="2022-05-09T15:49:50 BST">
+    <groups>
+      <group name="regression">
+        <method signature="JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="verifyJobSearchResultUsingDifferentDataSet" class="uk.co.library.testsuite.JobSearchTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="verifyJobSearchResultUsingDifferentDataSet" class="uk.co.library.testsuite.JobSearchTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="verifyJobSearchResultUsingDifferentDataSet" class="uk.co.library.testsuite.JobSearchTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="cv-library-uk" duration-ms="77615" started-at="2022-05-09T15:48:33 BST" finished-at="2022-05-09T15:49:50 BST">
+      <class name="uk.co.library.testsuite.JobSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="setUp" is-config="true" duration-ms="5617" started-at="2022-05-09T15:48:33 BST" finished-at="2022-05-09T15:48:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="inIt" is-config="true" duration-ms="31" started-at="2022-05-09T15:48:38 BST" finished-at="2022-05-09T15:48:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="FAIL" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="3740" started-at="2022-05-09T15:48:38 BST" data-provider="testData" finished-at="2022-05-09T15:48:42 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harrow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 5 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per annum]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Permanent]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Permanent Tester jobs in Harrow on the Hill]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Permanent Tester jobs in Harrow on the Hill] but found [Search jobs in your area]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Permanent Tester jobs in Harrow on the Hill] but found [Search jobs in your area]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (d7a7d4cd4d208b6b1c180fbc034700ea)] -> tag name: h1]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="tearDown" is-config="true" duration-ms="797" started-at="2022-05-09T15:48:42 BST" finished-at="2022-05-09T15:48:43 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="setUp" is-config="true" duration-ms="5187" started-at="2022-05-09T15:48:43 BST" finished-at="2022-05-09T15:48:48 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="inIt" is-config="true" duration-ms="2" started-at="2022-05-09T15:48:48 BST" finished-at="2022-05-09T15:48:48 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="FAIL" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="3727" started-at="2022-05-09T15:48:48 BST" data-provider="testData" finished-at="2022-05-09T15:48:52 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Software Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 50 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[45000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[70000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per month]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Any]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Software Tester jobs in London]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Software Tester jobs in London] but found [Search jobs in your area]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Software Tester jobs in London] but found [Search jobs in your area]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (601a610d15296c0db7a75fcb743b0292)] -> tag name: h1]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="tearDown" is-config="true" duration-ms="779" started-at="2022-05-09T15:48:52 BST" finished-at="2022-05-09T15:48:53 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="setUp" is-config="true" duration-ms="2784" started-at="2022-05-09T15:48:53 BST" finished-at="2022-05-09T15:48:55 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="inIt" is-config="true" duration-ms="2" started-at="2022-05-09T15:48:55 BST" finished-at="2022-05-09T15:48:55 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="FAIL" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="3759" started-at="2022-05-09T15:48:55 BST" data-provider="testData" finished-at="2022-05-09T15:48:59 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 25 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[45000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[70000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per month]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Any]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tester jobs in London]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Tester jobs in London] but found [Search jobs in your area]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Tester jobs in London] but found [Search jobs in your area]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (f22d52b372e61ea5725f070c6b2937cb)] -> tag name: h1]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="tearDown" is-config="true" duration-ms="775" started-at="2022-05-09T15:48:59 BST" finished-at="2022-05-09T15:49:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="setUp" is-config="true" duration-ms="2804" started-at="2022-05-09T15:49:00 BST" finished-at="2022-05-09T15:49:03 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="inIt" is-config="true" duration-ms="2" started-at="2022-05-09T15:49:03 BST" finished-at="2022-05-09T15:49:03 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="7670" started-at="2022-05-09T15:49:03 BST" data-provider="testData" finished-at="2022-05-09T15:49:10 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Driver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harrow Green, Suffolk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 35 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[45000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per month]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Any]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Driver jobs in Harrow Green]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (c8abc387e516c2013d114adccd0ebb93)] -> tag name: h1]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="tearDown" is-config="true" duration-ms="807" started-at="2022-05-09T15:49:10 BST" finished-at="2022-05-09T15:49:11 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="setUp" is-config="true" duration-ms="4931" started-at="2022-05-09T15:49:11 BST" finished-at="2022-05-09T15:49:16 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="inIt" is-config="true" duration-ms="2" started-at="2022-05-09T15:49:16 BST" finished-at="2022-05-09T15:49:16 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="FAIL" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="3626" started-at="2022-05-09T15:49:16 BST" data-provider="testData" finished-at="2022-05-09T15:49:20 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Recruitment Administrator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Norfolk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 75 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[50000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per month]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Any]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Recruitment Administrator jobs in Norfolk]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Recruitment Administrator jobs in Norfolk] but found [Search jobs in your area]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Recruitment Administrator jobs in Norfolk] but found [Search jobs in your area]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (fcb25c366e14c5383a2ee99c1b176f3d)] -> tag name: h1]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="tearDown" is-config="true" duration-ms="752" started-at="2022-05-09T15:49:20 BST" finished-at="2022-05-09T15:49:20 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="setUp" is-config="true" duration-ms="2778" started-at="2022-05-09T15:49:20 BST" finished-at="2022-05-09T15:49:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="inIt" is-config="true" duration-ms="3" started-at="2022-05-09T15:49:23 BST" finished-at="2022-05-09T15:49:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="13237" started-at="2022-05-09T15:49:23 BST" data-provider="testData" finished-at="2022-05-09T15:49:36 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nurse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Glasgow, Glasgow City]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 15 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[45000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[70000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per month]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Any]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Nurse jobs in Glasgow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (156c5363b6e6bf21a6f3631e1e0ad106)] -> tag name: h1]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="tearDown" is-config="true" duration-ms="820" started-at="2022-05-09T15:49:36 BST" finished-at="2022-05-09T15:49:37 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="setUp" is-config="true" duration-ms="5000" started-at="2022-05-09T15:49:37 BST" finished-at="2022-05-09T15:49:42 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="inIt" is-config="true" duration-ms="2" started-at="2022-05-09T15:49:42 BST" finished-at="2022-05-09T15:49:42 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="7154" started-at="2022-05-09T15:49:42 BST" data-provider="testData" finished-at="2022-05-09T15:49:49 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internal Sales Executive]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edmonton, Greater London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 25 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[35000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[70000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per month]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Any]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Internal Sales Executive jobs in Edmonton]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the results [[ChromeDriver: chrome on WINDOWS (aaaf0920968c221615b905bf14031e4e)] -> tag name: h1]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@53f65459]" name="tearDown" is-config="true" duration-ms="755" started-at="2022-05-09T15:49:49 BST" finished-at="2022-05-09T15:49:50 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.library.testsuite.JobSearchTest -->
+    </test> <!-- cv-library-uk -->
+  </suite> <!-- Default Suite -->
+</testng-results>
